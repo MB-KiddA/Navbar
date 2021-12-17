@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    background-color:#FFC9D1;
+    font-family:'Roboto' ;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+img{
+    height: auto;
+    width: 20%;
+}
+
+.links{
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.show-links{
+    height: 10rem;
+}
